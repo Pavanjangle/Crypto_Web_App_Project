@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/CryptoHeroSection.css";
 
 function CryptoHeroSection() {
@@ -9,7 +10,9 @@ function CryptoHeroSection() {
         <p className="hero-subtitle">
           Invest in digital assets and explore crypto tech.
         </p>
-        <button className="cta-button">Get Started</button>
+        <Link className="cta-button" to="/get-started">Get Started</Link>
+
+        {/* <button className="cta-button">Get Started</button> */}
       </div>
     </section>
   );
