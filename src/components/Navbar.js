@@ -5,7 +5,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 function NavBar() {
   const [click, setClick] = useState(false);
-  console.log(click);
+ 
   return (
     <div className="header">
       <Link to="/">
