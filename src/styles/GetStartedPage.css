@@ -1,0 +1,46 @@
+.gsp-header {
+  background: #181c2f;
+  padding: 0;
+}
+.gsp-nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0 2rem;
+}
+.gsp-nav-item {
+  position: relative;
+  margin: 0 1.5rem;
+}
+.gsp-nav-item a {
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem 0.5rem;
+  display: block;
+  transition: color 0.2s;
+}
+.gsp-nav-item a:hover {
+  color: #ffd700;
+}
+.gsp-dropdown-menu {
+  display: none;
+  position: absolute;
+  background: #23284a;
+  top: 100%;
+  left: 0;
+  min-width: 180px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  z-index: 10;
+  padding: 0.5rem 0;
+}
+.gsp-dropdown:hover .gsp-dropdown-menu {
+  display: block;
+}
+.gsp-dropdown-menu li a {
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+}
+.gsp-dropdown-menu li a:hover {
+  background: #2d335c;
+  color: #ffd700;
+}
